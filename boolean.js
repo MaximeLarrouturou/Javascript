@@ -11,6 +11,8 @@
 // && et...
 // || ou...
 
+console.log("______");
+
 var a = "Un fruit";
 var b = "Un légume";
 

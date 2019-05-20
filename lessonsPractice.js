@@ -1,9 +1,13 @@
+console.log("______");
+
+
 /* 
     Cas pratique tableau : Afficher prenom, nom 
     et initiale de prenom et nom
 */
 var prenom = "Maxime";
 var nom = "Larrouturou";
+
 var initiale = prenom[0] + nom[0];
 
 var resultat = [];

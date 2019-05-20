@@ -1,3 +1,5 @@
+console.log("______");
+
 /*
     Les tableaux [array]
 */
