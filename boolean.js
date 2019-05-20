@@ -1,5 +1,6 @@
 // vrai = true || faux = false
 // == permet de savoir si une valeur est égale à une autre valeur
+// === (!==) permet de vérifier la valeur et le type, un nombre, une chaine de caract.
 // != permet de savoir si une valeur est différente d'une autre valeur
 // <= Inférieur ou égale
 // >= Supérieur ou égale
@@ -38,3 +39,4 @@ console.log(demi == demi || demi >= pinte); // il faut que au moins un des 2 boo
     Le mode strict
 */
 
+console.log(demi !== "Pinte");

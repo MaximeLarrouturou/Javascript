@@ -35,3 +35,22 @@ function soustraction(a, b) {
 }
 var resultat = soustraction(1, 5);
 console.log(resultat); 
+
+/*
+    La condition if/else
+*/
+
+function biereForte(alcool){
+    if (alcool >= 15) {
+        return "La biere est très forte";
+    }
+    else if (alcool >= 10) {
+        return "La biere est forte";
+    }
+    else {
+        return "La biere n'est pas forte";
+    }
+    
+}
+
+console.log(biereForte(8));
