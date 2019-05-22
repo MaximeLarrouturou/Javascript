@@ -81,3 +81,33 @@ function niveau(arr) {
 
 
 console.log(niveau([12, 8, 16]));
+
+/* 
+    Cas pratique : calculer une moyenne
+*/
+
+
+function maMoyenne(arr) {
+
+    var total = 0;
+    
+    //la boucle qui calcul mon total
+    for (var i = 0; i < arr.length; i++) {
+     total += arr[i] /arr.length; // j'additionne et je soustrais aussi 
+    }
+    
+    if (total >= 15) {
+        return "Très bien " + total;
+    }
+
+    else if (total >= 10) {
+        return "Bien " + total;
+    }
+
+    return "Convocation des parents " + total;
+
+   
+}
+    
+ 
+console.log(maMoyenne([15, 7, 8, 14,]));
