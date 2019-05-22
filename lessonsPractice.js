@@ -93,7 +93,7 @@ function maMoyenne(arr) {
     
     //la boucle qui calcul mon total
     for (var i = 0; i < arr.length; i++) {
-     total += arr[i] /arr.length; // j'additionne et je soustrais aussi 
+     total += arr[i] / arr.length; // j'additionne et je soustrais aussi 
     }
     
     if (total >= 15) {
@@ -109,5 +109,14 @@ function maMoyenne(arr) {
    
 }
     
- 
 console.log(maMoyenne([15, 7, 8, 14,]));
+
+
+/*
+    générer un nombre aléatoire
+*/
+
+var random = Math.floor(Math.random() * 6);
+
+
+console.log(random);
