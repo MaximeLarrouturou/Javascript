@@ -59,7 +59,7 @@ console.log(biereForte(8));
 
 
 /* 
-    Générer un npmbre aléatoire dans un rang
+    Générer un nombre aléatoire dans un rang
 */ 
 
 
