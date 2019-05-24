@@ -116,7 +116,27 @@ console.log(maMoyenne([15, 7, 8, 14,]));
     générer un nombre aléatoire
 */
 
-var random = Math.floor(Math.random() * 6);
+var random = Math.floor(Math.random() * 6 + 1); //le + 1 permet de ne pas commencer à 0
 
 
 console.log(random);
+
+/*
+    Mélanger un array
+*/
+
+
+function randomize(arr) {
+    var temp = 0;
+    var monRandom = 0;
+
+    for (var i = 0; i < arr.length; i++) {
+        monRandom = Math.floor(Math.random() * arr.length); // a chaque tour de boucle, monRandom va générer un nouveau nombre aléatoire
+        temp = arr[i]; // ici je stoque arr qui a pour valeur i dans mon temp
+        arr[i] = arr[monRandom]; // Puis je le remplace par monRandom
+        arr[monRandom] = temp; // Et je le met à la place 
+       }
+        return arr;
+    
+}
+console.log(randomize([1,2,3,4,5]));

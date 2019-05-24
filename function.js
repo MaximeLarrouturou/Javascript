@@ -56,3 +56,15 @@ function biereForte(alcool){
 }
 
 console.log(biereForte(8));
+
+
+/* 
+    Générer un npmbre aléatoire dans un rang
+*/ 
+
+
+function rangRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min); 
+}
+
+console.log(rangRandom(5, 10));
